@@ -31,6 +31,7 @@ add_executable(${CMAKE_PROJECT_NAME} src/app/main.cpp
         src/classes/prjexception.cpp
         src/classes/prjexception.hpp
         src/header/filecontents.hpp
-        src/header/constants.hpp)
+        src/header/constants.hpp
+        src/header/util.hpp)
 
 target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC "${PROJECT_BINARY_DIR}")
