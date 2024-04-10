@@ -3,12 +3,24 @@
 using of cpp project creator is very easy:
 it runs oly on **linux systems**.
 
-cpproject  my_project_path/folder_name
-creates a C++ project with cmake configuration and C++ terminal command compilation.
+cpproject  --path:project_name --project-normal
+creates a C++ project with cmake configuration and C++ terminal command compilation for single file.
 
-cpproject  my_project_path/folder_name postgresql
+cpproject  --path:project_name --project-postgres
 creates a C++ project with cmake configuration and C++ terminal command,
-with Postgresql configuration both for cmake and terminal command compilation.
+with Postgresql configuration both for cmake and terminal command compilation for single file.
+
+cpproject  --path:project_name --project-qt-ui
+creates a GUI Qt project with cmake configuration;
+
+cpproject  --path:project_name --project-qt-console
+creates a Console Qt project with cmake configuration;
+
+for all cases it can be add these parameters:
+[--git-init] [--author:name] [--email:email@mail.com]
+
+for example:
+cpproject  --path:project_name --project-normal --git-init --author:name --email:email@mail.com
 
 ## Files Explanation
 ![files.png](files.png)
