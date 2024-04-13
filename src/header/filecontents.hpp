@@ -63,8 +63,7 @@ const static std::string script_new_sh{
     "    std::cout << \\\"\\nThe End ...\\\" << std::endl;\n"
     "    return (EXIT_SUCCESS);\n"
     "}\" >> src/app/main_$1.cpp\n"
-    "\n"
-    "#code -r src/app/main_$1.cpp"};
+    "\n"};
 
 const static std::string cmake_new_script{
     "#! /bin/bash\n"
@@ -86,8 +85,7 @@ const static std::string cmake_new_script{
     "    std::cout << \\\"\\nThe End ...\\\" << std::endl;\n"
     "    return (EXIT_SUCCESS);\n"
     "}\" >> src/app/main.cpp\n"
-    "\n"
-    "#code -r src/app/main.cpp"};
+    "\n"};
 
 const static std::string script_compiler_sh{
     "#! /bin/bash\n"
