@@ -245,17 +245,15 @@ void Project::set_work_space(const std::string &_content) {
 }
 
 /* ------------------------------- */
-////////////////////
 [[nodiscard]] [[maybe_unused]] const std::string &
 Project::get_cpp_file() const {
-    return this->file_main_cpp;
+    return this->content_main_cpp;
 }
 
 [[nodiscard]] [[maybe_unused]] const std::string &
 Project::get_cpp_001_file() const {
-    return this->file_main_001_cpp;
+    return this->content_main_001_cpp;
 }
-///////////////////
 
 [[maybe_unused]] const std::string &Project::get_run_script_file() const {
     return this->content_run_script;

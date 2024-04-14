@@ -8,9 +8,9 @@ namespace constants {
 
     static constexpr char nl = '\n';
     static constexpr char sp = '\x20';
-    static constexpr char slash = '/';
-    static constexpr char dot = '\\.';
-    static constexpr char back_slash = '\\';
+    static constexpr char slash = '\x2f';
+    static constexpr char dot = '\x2e';
+    static constexpr char back_slash = '\x5c';
     static constexpr char colon = ':';
     static constexpr std::string str_slash = "/";
 
@@ -42,7 +42,7 @@ namespace constants {
     static constexpr std::string error_title{" Error: "};
 
     static const std::string title{
-            " Ramin Hoobakht, C++ project creator v.0.1.25 2024 Apr 10"};
+            " Ramin Hoobakht, C++ project creator v.0.1.26 2024 Apr 14"};
 
     static const std::string param_error_one{" invalid parameter ..."};
 
