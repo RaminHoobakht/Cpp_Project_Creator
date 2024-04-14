@@ -51,7 +51,7 @@ const static std::string script_new_sh{
     "\n"
     "clear\n"
     "git add --all\n"
-    "gti commit -m 'new source file'"
+    "git commit -m 'new source file'\n"
     "\n"
     "echo \"#include <iostream>\n"
     "\n"
@@ -67,6 +67,9 @@ const static std::string script_new_sh{
     "    std::cout << \\\"\\nThe End ...\\\" << std::endl;\n"
     "    return (EXIT_SUCCESS);\n"
     "}\" >> src/app/main_$1.cpp\n"
+    "\n"
+    "git add --all\n"
+    "git commit -m 'new source file'\n"
     "\n"};
 
 const static std::string cmake_new_script{
@@ -74,7 +77,7 @@ const static std::string cmake_new_script{
     "\n"
     "clear\n"
     "git add --all\n"
-    "gti commit -m 'new source file'"
+    "git commit -m 'new source file'\n"
     "\n"
     "mv src/app/main.cpp src/app/main_$1.cpp\n"
     "\n"
@@ -92,6 +95,9 @@ const static std::string cmake_new_script{
     "    std::cout << \\\"\\nThe End ...\\\" << std::endl;\n"
     "    return (EXIT_SUCCESS);\n"
     "}\" >> src/app/main.cpp\n"
+    "\n"
+    "git add --all\n"
+    "git commit -m 'new source file'\n"
     "\n"};
 
 const static std::string script_compiler_sh{
