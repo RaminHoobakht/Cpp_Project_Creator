@@ -42,7 +42,7 @@ namespace constants {
     static constexpr std::string error_title{" Error: "};
 
     static const std::string title{
-            " Ramin Hoobakht, C++ project creator v.0.1.27 2024 May 29"};
+            " Ramin Hoobakht, C++ project creator v.0.1.28 2024 Jun 17"};
 
     static const std::string param_error_one{" invalid parameter ..."};
 
